@@ -4,7 +4,9 @@ Some PDE algorithms visualized and ported for the GPU.
 
 # PDE 1
 
+Implementation of a solver for the 2D Cahn-Hilliard equation. The code is a GPU implementation of an algorithm by [Christoph Ortner](http://nbviewer.jupyter.org/url/homepages.warwick.ac.uk/staff/C.Ortner/julia/PlaneWaves.ipynb).
 
+> The algorithm was originally ported to [ArrayFire](https://github.com/gaika/ArrayFire.jl) by [Romain Veltz](https://github.com/rveltz) and later translated to [CLArrays](https://github.com/JuliaGPU/CLArrays.jl).
 
 ```Julia
 using CLArrays, GLVisualize, GeometryTypes, GLAbstraction, StaticArrays
